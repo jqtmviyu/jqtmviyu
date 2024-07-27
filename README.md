@@ -11,7 +11,7 @@
 
 - 🔭 I'm a web developer who likes to play around with Computers and stuff.
 - 🌱 My motto: The best time to plant a tree was ten years ago; the second-best time is now!
-- 🏠 blog [Discord](https://jqtmviyu.github.io)
+- 🏠 blog [jqtmviyu.github.io](https://jqtmviyu.github.io)
 
 ---
 
