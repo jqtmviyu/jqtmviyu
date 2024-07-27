@@ -17,7 +17,9 @@
 
 📊 Stats
 
-![GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=jqtmviyu&theme=tokyonight)   [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=jqtmviyu&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)
+![GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=jqtmviyu&theme=tokyonight)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=jqtmviyu&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)
 
 ![GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jqtmviyu&theme=tokyonight)
 
