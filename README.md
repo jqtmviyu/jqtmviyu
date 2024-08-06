@@ -13,5 +13,5 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jqtmviyu/jqtmviyu/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jqtmviyu/jqtmviyu/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" width="760px" style="display: none;"/>
+  <img alt="github-snake" src="github-snake.svg" width="760px"/>
 </picture>
