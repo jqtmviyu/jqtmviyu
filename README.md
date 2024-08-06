@@ -9,9 +9,3 @@
 - 🌱 The best time 🕰️ to plant a tree 🌳 was ten years ago 🔙 ; the second-best time 🕰️ is now 👉🏻 !
 
 <img height="180px" src="https://github-readme-stats-jqtmviyu.vercel.app/api?username=jqtmviyu&show_icons=true&theme=transparent&count_private=true&custom_title=Stats" alt="jqtmviyu's github stats" />  <img height="180px" src="https://github-readme-stats-jqtmviyu.vercel.app/api/top-langs/?username=jqtmviyu&layout=compact&theme=transparent&hide=html,nsis,logos" />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jqtmviyu/jqtmviyu/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jqtmviyu/jqtmviyu/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" width="760px"/>
-</picture>
