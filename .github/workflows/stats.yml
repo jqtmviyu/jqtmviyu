@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v6
 
       # 创建目录，避免和其他 workflow 冲突
-      - run: mkdir -p dist/stats dist/snake
+      - run: mkdir -p dist/stats
 
       # 生成 stats 卡片
       - name: Generate stats card
