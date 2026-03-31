@@ -1,0 +1,52 @@
+name: generate github stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 生成 stats 卡片
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent&count_private=true&custom_title=Stats
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 生成 top languages 卡片
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=transparent&hide=html,nsis,logos
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 安装 svgo
+      - name: Install SVGO
+        run: npm install -g svgo
+
+      # 压缩 SVG（关键优化）
+      - name: Optimize SVG
+        run: svgo -f dist
+
+      # 推送到 output 分支（无变化不提交）
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Update github stats"
+          allow_empty_commit: false   # 👈 核心优化
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
