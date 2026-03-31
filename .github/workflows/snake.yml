@@ -41,14 +41,6 @@ jobs:
           path: dist/stats/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 可选：生成 pin 卡片
-      - name: Generate pin card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=<your-repo>
-          path: dist/stats/pin.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       ###############################
       # Snake 动画部分
